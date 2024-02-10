@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-size: 30px;
+    background-color: blueviolet;
+
+}
+
+.container{
+    background: white;
+    width: 500px;
+    padding: 30px;
+    margin: 10% auto 0;
+    border-top: 5px solid blanchedalmond;
+    box-shadow: 0 0 10px 3px rgb(0, 0, 0,0.5) ;
+}
+
+h1{
+    padding: 20px;
+    text-align: center;
+
+}
+
+input{
+    height: 35px;
+    padding: 8px;
+    text-align: center;
+}
+.inputname{
+    width: 90%;
+    position: relative;
+    margin: 20px auto;
+    
+
+    
+}
+.name{
+    width: 100%;
+    padding: 25px 30px 25px 50px;
+    border: 1px solid #cccccc;
+    outline: none;
+    
+    
+}
+.inputname i{
+    font-size: 35px;
+    position: absolute;
+    color: blueviolet;
+    border-right: 1px solid #cccccc ;
+    
+
+}
+.user{
+    padding: 8px;
+
+}
+.name:hover{
+    color: #cccccc;
+    background-color: black;
+}
+.name:focus{
+    border: 1px solid blueviolet;
+}
+.button{
+    background-color: blueviolet;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #cccccc;
+    cursor: pointer;
+
+}
+.button:hover{
+    background-color: black;
+}
+
+@media (max-width: 480px)
+{
+    .container{
+        width: 100%;
+        padding: 5px;
+
+    }
+    .inputname{
+        margin-bottom: -10px;
+        
+    }
+    .inputname i{
+        border-right: 0px;
+        padding: 5px;
+    }
+    .name{
+        width: 100%;
+        padding: 8px 0 8px 40px;
+        margin-bottom: 10px;
+    }
+    .inputname span{
+        padding: 0;
+        margin: 0;
+       
+
+    }
+    .formcontainer{
+        border: 2px solid;
+        width: 100%;
+    }
+}
